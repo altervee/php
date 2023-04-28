@@ -16,6 +16,7 @@ Práctica
 ## Tarea 3 - Calderon_Ivan_DWES03_Practica
 Partiendo de la base de datos ‘decine’ la aplicación se
 dividirá en tres páginas web:
+
 ● listado.php. Mostrará un cuadro desplegable que permita seleccionar un registro de la tabla
 'category', junto a un botón "Mostrar". Al pulsar el botón, se mostrará un listado de las
 películas de la categoría seleccionada.
