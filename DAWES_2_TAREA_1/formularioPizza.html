@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form method="post" action="pizza.php">
+            <p>Tamaño pizza</p>
+            <select name="tamano">
+            
+                <option value="2.95">Mini</option>
+                <option value="4.95">Media</option>
+                <option value="8.95">Maxi</option>
+                
+            </select><br>
+            <p>Base</p>
+            <select name="Base">
+            
+                <option value="0">Normal</option>
+                <option value="1">Crujiente</option>
+                <option value="2">Rellena</option>
+                
+            </select><br>
+            <p>Salsa</p>
+            <select name="salsa">
+            
+                <option value="0">Ninguna</option>
+                <option value="0.95">Barbacoa</option>
+                <option value="1.45">Carbonara</option>
+                
+            </select><br>
+            
+            <fieldset>
+                <legend>Ingrediente</legend>
+                <label for="pollo">pollo(0.55)</label>
+                <input type="checkbox" id="pollo" value="0" name="ingredientes[]">
+                
+                <label for="bacon">bacon(0.75)</label>
+                <input type="checkbox" id="bacon" value="1" name="ingredientes[]">
+                <label for="jamon">jamon(0.95)</label>
+                <input type="checkbox" id="jamon" value="2" name="ingredientes[]"> 
+                <label for="cebolla">cebolla(0.45)</label>
+                <input type="checkbox" id="cebolla" value="3" name="ingredientes[]">
+                
+                <label for="aceitunas">aceitunas(0.55)</label>
+                <input type="checkbox" id="aceitunas" value="4" name="ingredientes[]">
+                
+                <label for="pimiento">pimiento(0.65)</label>
+                <input type="checkbox" id="pimiento" value="5" name="ingredientes[]">
+                
+
+             </fieldset>
+  
+
+            <input type="submit" value="Enviar datos" />
+        </form>
+    </body>
+    <!-- Recopilo los datos de la pizza -->
+</html>
