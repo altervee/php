@@ -36,3 +36,9 @@ formulario con un botón "Continuar" o la etiqueta "<meta http-equiv='refresh' c
 url=...>" dentro del encabezado.
 Se debe usar control de errores.
 
+## Tarea 4 - Calderon_Ivan_DWES04_Practica
+Orientación a objetos de PHP para generar de forma dinámica todo el
+código HTML por medio de métodos de una o varias clases, de manera que separemos el
+código PHP del código HTML.
+
+
