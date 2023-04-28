@@ -22,10 +22,12 @@ películas de la categoría seleccionada.
 Para cada película se mostrará su título y su año, junto a un botón con el texto "Editar" (una
 opción es crear un formulario distinto por cada producto). Cuando se pulse ese botón, se
 enviará el formulario a la página "editar.php".
+
 ● editar.php. Debe mostrar todos los datos de la película seleccionada en la página anterior
 (título, descripción, año, duración, coste de alquiler y coste de sustitución) dentro de un
 formulario que permita cambiarlos, y dos botones: "Actualizar" y "Cancelar". El formulario se
 enviará a la página "actualizar.php".
+
 ● actualizar.php. Esta página simplemente redirige a la página "listado.php", pero si en el
 formulario anterior se ha pulsado "Actualizar" (y no "Cancelar"), antes de redirigir debe
 ejecutar una consulta para cambiar los datos del producto. Para redirigir se puede utilizar un
